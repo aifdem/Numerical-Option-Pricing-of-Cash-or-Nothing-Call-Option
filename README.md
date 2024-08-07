@@ -5,8 +5,9 @@ This repository presents a numerical approach to pricing a Cash-or-Nothing Call 
 The goal of this project is to demonstrate the effectiveness of FEM, particularly the Galerkin Method, in accurately pricing options, and to explore the impact of different basis functions on the numerical results.
 
 ## Results of approximation with linear basis functions(P1)
+![image](https://github.com/user-attachments/assets/0426b96a-5820-45f1-b6f8-a53123c49258)
+
 ![image](https://github.com/user-attachments/assets/9499f1b8-5fce-46a0-b7ad-9e0fe04d19f3)
-![image](https://github.com/user-attachments/assets/c626aebc-a5a3-4f74-96fb-e423167d39aa)
 
 ## Results of approximation with quadratic basis functions(P2)
 ![image](https://github.com/user-attachments/assets/bc343c74-4c0a-4924-9862-4ce2522ee63f)
