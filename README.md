@@ -1,6 +1,9 @@
 # Numerical-Option-Pricing-of-Cash-or-Nothing-Call-Option
 This repository presents a numerical approach to pricing a Cash-or-Nothing Call option using the Finite Element Method (FEM). The project specifically implements the Galerkin Method with both linear(P1) and quadratic(P2) basis functions to solve the partial differential equations (PDEs) governing the option pricing model.
 
+## Purpose:
+The goal of this project is to demonstrate the effectiveness of FEM, particularly the Galerkin Method, in accurately pricing options, and to explore the impact of different basis functions on the numerical results.
+
 ## Results of approximation with linear basis functions(P1)
 ![image](https://github.com/user-attachments/assets/6ae42870-0a93-4a90-86ad-c1363e2f7dbf)
 
@@ -12,6 +15,22 @@ This repository presents a numerical approach to pricing a Cash-or-Nothing Call 
 
 ![image](https://github.com/user-attachments/assets/fd720b4e-d137-4ac7-aca2-19c8d2bb150f)
 ![Uploading image.png…]()
+
+#### Black-Scholes Equation Parameters:
+
+- Strike Price (E): 1
+- Initial Asset Price (A): 2
+- Risk-Free Rate (r): 0.05
+- Volatility (σ): 0.2
+- Time to Maturity (T): 1 year
+
+#### Spacial and Temporal Discretization:
+
+- Number of spatial elements: 50
+- Spatial interval: [0, 2]
+- Number of time elements: 50
+- Temporal interval: [0, 1]
+- Time step (Δt): 0.02
 
 
 
