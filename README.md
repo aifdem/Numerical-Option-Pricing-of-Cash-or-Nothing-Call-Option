@@ -1,6 +1,8 @@
 # Numerical-Option-Pricing-of-Cash-or-Nothing-Call-Option
 This repository presents a numerical approach to pricing a Cash-or-Nothing Call option using the Finite Element Method (FEM). The project specifically implements the Galerkin Method with both linear(P1) and quadratic(P2) basis functions to solve the partial differential equations (PDEs) governing the option pricing model.
 
+The solutions and results could be found in the file "CoN_P1_P2_approximation.mlx"
+
 #### Black-Scholes Equation Parameters:
 
 - Strike Price (E): 1
